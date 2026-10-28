@@ -7,7 +7,7 @@ struct ContentView: View {
     @State private var loadFailed = false
     @State private var reloadToken = UUID()
     @State private var estimatedProgress: Double = 0.0
-    @State private var activeURL = URL(string: "https://buongloi.loc.cc")!
+    @State private var activeURL = URL(string: "https://promo.buongloi.loc.cc")!
 
     private let bgDark = Color(red: 0.035, green: 0.035, blue: 0.043)         // #09090B
     private let indigoAccent = Color(red: 0.388, green: 0.400, blue: 0.945)   // #6366F1
@@ -94,7 +94,7 @@ struct ContentView: View {
                         .font(.system(size: 18, weight: .bold, design: .rounded))
                         .foregroundColor(.white)
 
-                    Text("Vui lòng kiểm tra kết nối Internet hoặc trạng thái máy chủ buongloi.loc.cc.")
+                    Text("Vui lòng kiểm tra kết nối Internet hoặc trạng thái máy chủ promo.buongloi.loc.cc.")
                         .font(.subheadline)
                         .foregroundColor(Color(white: 0.68))
                         .multilineTextAlignment(.center)
@@ -139,13 +139,13 @@ struct ContentView: View {
             let targetPath: String
             switch shortcutType {
             case "me.buongloi.promotracker.scan":
-                targetPath = "https://buongloi.loc.cc/?action=scan"
+                targetPath = "https://promo.buongloi.loc.cc/?action=scan"
             case "me.buongloi.promotracker.expiring":
-                targetPath = "https://buongloi.loc.cc/?action=expiring"
+                targetPath = "https://promo.buongloi.loc.cc/?action=expiring"
             case "me.buongloi.promotracker.upload":
-                targetPath = "https://buongloi.loc.cc/?action=upload"
+                targetPath = "https://promo.buongloi.loc.cc/?action=upload"
             default:
-                targetPath = "https://buongloi.loc.cc/"
+                targetPath = "https://promo.buongloi.loc.cc/"
             }
 
             if let newURL = URL(string: targetPath) {

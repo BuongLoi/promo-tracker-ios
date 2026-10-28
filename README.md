@@ -1,7 +1,7 @@
 # 🏷️ Promo Tracker — iOS Native App (`Kiểm Tra Chương Trình Khuyến Mãi v1.0`)
 
 > **Promo Tracker iOS Native Wrapper**  
-> Ứng dụng tra cứu, lọc đa chiều, quét mã vạch sản phẩm và cập nhật file Excel khuyến mãi hàng ngày tại [https://buongloi.loc.cc](https://buongloi.loc.cc) — hỗ trợ **Dark Mode & Light Mode**.
+> Ứng dụng tra cứu, lọc đa chiều, quét mã vạch sản phẩm và cập nhật file Excel khuyến mãi hàng ngày tại [https://promo.buongloi.loc.cc](https://promo.buongloi.loc.cc) — hỗ trợ **Dark Mode & Light Mode**.
 
 ---
 
@@ -13,7 +13,7 @@
 | **Bundle Identifier** | `me.buongloi.promotracker` |
 | **Phiên bản** | `1.0.0` (Build `1`) |
 | **Yêu cầu hệ điều hành** | iOS 16.0 trở lên (Tương thích iPhone & iPad) |
-| **Máy chủ Web App** | `https://buongloi.loc.cc` (VPS port `8098`) |
+| **Máy chủ Web App** | `https://promo.buongloi.loc.cc` (VPS port `8098`) |
 | **Hình thức đóng gói** | Unsigned IPA (Cài đặt qua ESign / TrollStore / AltStore / Sideloadly) |
 
 ---
